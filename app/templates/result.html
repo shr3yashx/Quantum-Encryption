@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation Results</title>
+</head>
+<body>
+    <h1>QKD Simulation Results</h1>
+
+    <h2>Shared Key</h2>
+    <p>{{ shared_key }}</p>
+
+    <h2>Encrypted Message</h2>
+    <p>{{ encrypted_message }}</p>
+
+    <h2>Decrypted Message</h2>
+    <p>{{ decrypted_message }}</p>
+
+    <h2>Eavesdropping Detection</h2>
+    <p>Detected Eavesdropping Probability: {{ eavesdrop_probability }}</p>
+    <p>Number of Mismatches: {{ mismatches }}</p>
+    <p>{{ detection_result }}</p>
+
+    <a href="/">Back to Simulation</a>
+</body>
+</html>

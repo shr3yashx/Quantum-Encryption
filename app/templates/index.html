@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QKD Simulation</title>
+</head>
+<body>
+    <h1>Quantum Key Distribution Simulation</h1>
+    <form action="/" method="post">
+        <label for="message">Message:</label><br>
+        <input type="text" id="message" name="message" required><br><br>
+
+        <label for="key_length">Key Length:</label><br>
+        <input type="number" id="key_length" name="key_length" value="20" min="1" required><br><br>
+
+        <label for="eavesdrop_probability">Eavesdropping Probability:</label><br>
+        <input type="number" id="eavesdrop_probability" name="eavesdrop_probability" value="0.0" step="0.01" min="0" max="1" required><br><br>
+
+        <input type="submit" value="Start Simulation">
+    </form>
+
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
