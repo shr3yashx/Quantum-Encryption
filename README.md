@@ -89,14 +89,6 @@ This project implements a Quantum Key Distribution (QKD) simulation using Flask.
 
 ---
 
-## Screenshots
-
-### Home Page
-[Include a screenshot of the home page.]
-
-### Results Page
-[Include a screenshot of the results page.]
-
 ---
 
 ## File Structure
@@ -133,12 +125,6 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 3. Commit your changes: `git commit -m 'Add feature'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
